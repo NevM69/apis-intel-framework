@@ -1,0 +1,26 @@
+{
+  "name": "@apis-intel/framework",
+  "version": "1.0.0-rc.1",
+  "description": "The open-source multi-AI forensic and investigative core framework for legal, law enforcement, and humanitarian operations.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./core": "./dist/core/index.js",
+    "./models": "./dist/models/index.js",
+    "./investigation": "./dist/investigation/index.js",
+    "./leo": "./dist/leo/index.js",
+    "./solidarite": "./dist/solidarite/index.js"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "test": "node --test",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": ["apis-intel", "forensics", "leo", "osint", "legal-tech", "zdr"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apis-intel/framework.git"
+  }
+}
